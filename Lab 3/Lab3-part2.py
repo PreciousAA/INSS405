@@ -8,5 +8,14 @@ average=int(sum/3)
 print(sum)
 print(average)
 
+score = input('Enter Score')
+if(int(score)>=90):
+    print('A')
+elif(int(score)>=70 and int(score)<=79):
+    print('B')
+elif(int(score)>=60 and int(score)<=69):
+    print('C')
+else:
+    print('f')
 
 

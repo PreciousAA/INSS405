@@ -1,8 +1,16 @@
-number = int(input(" Enter a number"))
-
-if number / 3:
+num=int(input("Enter your number:"))
+if(num%3):
     print("Bowie")
-if number / 5:
+elif(num%5):
     print("Bowie state")
-if number / 15:
+else:
     print("Bowie state university")
+
+
+
+
+
+
+
+
+
